@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.backgroundImage
+{
+  height:50vh;
+  width:100%;
+  background-image: url('https://edurekawebbucket.s3.ap-south-1.amazonaws.com/img/background.png');
+ object-fit:fill;
+ filter:brightness(100%);
+}
+
+.navBarStyle
+{
+  background-color: none;
+  color:white;
+}
+.navBarStyle>.show
+{
+  display:block; 
+}
+.navBarStyle>Nav>Nav.link
+{
+  color:white;
+}
+
+.mt-100
+{
+  margin-top:10px;
+}
+
+.brandLogo
+{
+  font-size: 80px;
+border: 10px solid #e32e53;
+border-radius: 70%;
+background-color: #E32E53;
+width: 119px;
+height: 122px;
+margin: auto;
+}
+.brandLogoTop
+{
+  font-size: 28px;
+border: 10px solid white;
+border-radius: 50%;
+color: #E32E53;
+background-color: white;
+width: 30px;
+height: 30px;
+margin-top: -10px;
+margin-left: 7px;
+margin-bottom: -8px;
+padding-right: 30px;
+padding-bottom: 42px;
+padding-left: 10px;
+font-weight: 600;
+}
+
+.p30
+{
+  padding:20px; 
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 1px solid grey;
+}
+.mb-30
+{
+  margin-bottom: 20px;
+}
+.imageRestaurant
+{
+  height:80px;width:80px;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.card-img
+{
+  height:100%;
+  width:100%;
+}
+.mt15{
+  margin-top:15px;
+}
+
+.navButton{
+  position:absolute;
+  right:200px;
+  top:5px;
+}
+.navButton2{
+  position:absolute;
+  right:20px;
+  top:5px;
+}
+
+.card{
+  z-index: -1 !important;
+flex-direction: row !important;
+margin-bottom: 10px !important;
+}

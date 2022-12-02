@@ -1,0 +1,23 @@
+.orderButtonArea button{
+    width: 9.5em;
+position: absolute;
+right: 0px;
+top: 2px;
+}
+.tab-content
+{
+    padding:25px 0px 0px 10px;
+}
+.tab-pane h6{
+    margin-bottom: 10px;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    background-color: rgba(17, 15, 15, 0.7);
+border-radius: 10px;
+width: 30%;
+left:25em;
+margin-bottom: 20px;
+}

@@ -1,0 +1,471 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@import url("https://use.typekit.net/vdt3nku.css");
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .onlyDesktop {
+    display: none;
+  }
+  .onlyMobile {
+    display: block;
+  }
+  .filterBreakfast {
+    display: none;
+  }
+
+  div.textWrapperFlex > .flexChild1 {
+    position: absolute !important;
+    display: block;
+    left: 0em !important;
+    margin-bottom: 3% !important;
+    width: 100% !important;
+    top: 11rem !important;
+  }
+
+  div.textWrapperFlex > h2 {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 3% !important;
+    margin: auto;
+    padding-top: 0.3em;
+    font-size: 3.5rem !important;
+    border-radius: 50% !important;
+    border: 1px solid white !important;
+  }
+
+  div.textWrapperFlex > .flexChild2 {
+    position: absolute !important;
+    left: 0em !important;
+    width: 100% !important;
+    margin-bottom: 3% !important;
+    top: 15rem !important;
+  }
+
+div.dataSection> div#addData
+{
+  display: none;
+}
+
+  body > header > img {
+    width: 100% !important;
+    height: 390px !important;
+    object-fit: cover;
+    }
+
+  html > body > header {
+    background-image: linear-gradient(white, darkred);
+    /* background-image:url("/img/background.png"); */
+    height: 350px !important;
+
+    width: 100%;
+  }
+  div.textWrapperFlex {
+    position: relative !important;
+    top: -20em !important;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .onlyDesktop {
+    display: none;
+  }
+  .onlyMobile {
+    display: block;
+  }
+  .filterBreakfast {
+    display: none;
+  }
+
+  div.textWrapperFlex > .flexChild1 {
+    position: absolute !important;
+    display: block;
+    left: 0em !important;
+    width: 100% !important;
+  }
+
+  div.textWrapperFlex > h2 {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 2% !important;
+    margin: auto !important;
+    padding-top: 0.3em !important;
+    font-size: 3.5rem !important;
+    border-radius: 50% !important;
+    border: 1px solid white !important;
+  }
+
+  div.textWrapperFlex > .flexChild2 {
+    position: absolute !important;
+    left: 0em !important;
+    width: 100% !important;
+    top: 8rem !important;
+  }
+
+  body > header > img {
+    width: 100% !important;
+    height: 350px !important;
+    object-fit: cover;
+  }
+
+  html > body > header {
+    background-image: linear-gradient(white, darkred);
+    /* background-image:url("/img/background.png"); */
+    height: 400px !important;
+
+    width: 100%;
+  }
+  div.textWrapperFlex {
+    position: relative !important;
+    top: -11em !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  div.textWrapperFlex > .flexChild1 {
+    position: absolute !important;
+    display: block;
+    left: 0em !important;
+    width: 50% !important;
+  }
+
+  div.textWrapperFlex > h2 {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 1.5rem !important;
+
+    padding-top: 0.3em;
+    font-size: 3.5rem !important;
+    border-radius: 50% !important;
+    border: 1px solid white !important;
+  }
+
+  div.textWrapperFlex > .flexChild2 {
+    position: absolute !important;
+    left: 21.5em !important;
+    width: 50% !important;
+    /* top: 8rem !important; */
+  }
+
+  body > header > img {
+    width: 100% !important;
+    height: 320px !important;
+    
+  }
+
+  html > body > header {
+    background-image: linear-gradient(white, darkred);
+    /* background-image:url("/img/background.png"); */
+    height: 350px !important;
+
+    width: 100%;
+  }
+  div.textWrapperFlex {
+    position: relative !important;
+    line-height: 30px !important;
+    top: -15em !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .onlyDesktop {
+    display: block;
+  }
+  .onlyMobile {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+p,
+h3,
+h4,
+* {
+  font-family: Poppins;
+  font-weight: 200;
+}
+
+div.textWrapperFlex > h2 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1em;
+  /* margin: auto; */
+  padding-top: 0.3em;
+  font-size: 3.5rem;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+div.filterDropdown > input {
+  box-sizing: border-box;
+  max-width: 100% !important;
+}
+.filterSection,
+.dataSection {
+  height: 600px;
+  /* background-color: gainsboro; */
+  /* padding:5px; */
+  /* border-radius: 10px;
+    border: 0.5px solid lightgrey; */
+}
+
+.sectionCost {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 2px 5px;
+}
+
+div.pageSection {
+  display: flex !important;
+  flex-wrap: nowrap;
+  justify-content: center !important;
+}
+
+div.flexChild1 > .datalistStyle {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.navbar-nav .menuMain {
+  display: flex !important;
+}
+
+div > .menuMain {
+  display: flex;
+}
+section > nav.navStyle {
+  background-color: #c6001c !important;
+  height: 4em !important;
+}
+
+header > nav.navStyle2 {
+  background-color: #c6001c !important;
+  height: 4em !important;
+}
+
+div.textWrapperFlex {
+  position: relative;
+  top: -17em;
+}
+div.textWrapperFlex > .flexChild1 {
+  position: absolute;
+  left: 12em;
+  width: 15em;
+}
+
+div.textWrapperFlex > .flexChild2 {
+  position: absolute;
+  left: 27em;
+  width: 31em;
+}
+html > body > header {
+  background-image: linear-gradient(white, darkred);
+  /* background-image:url("/img/background.png"); */
+  height: 300px;
+
+  width: 100%;
+}
+html > body > .menuMain {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.menuMain > li > a {
+  color: white !important;
+  font-weight: 500;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+div > button.btnGoogle {
+  border: 1px solid lightgray !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+div > button.btnGoogle > img {
+  width: 40px !important;
+  height: 30px !important;
+}
+
+body > div.footerText > p {
+  text-align: left !important;
+}
+div > div.inputMobileField > select {
+  box-sizing: border-box;
+}
+
+body > header > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.brandLogo > p {
+  width: 50px !important;
+  height: 50px !important;
+  text-align: center;
+  background-color: white !important;
+  color: #c6001c !important;
+  font-size: 35px;
+  font-weight: 100;
+
+  border-radius: 50% !important;
+  border: 1px solid white !important;
+}
+
+.mainClassCss {
+  margin-top: 0em !important;
+}
+
+div.cardsCss > .card {
+  flex-direction: row;
+  width: 22rem !important;
+  margin-bottom: 2em !important;
+  height: 9em;
+}
+.cardsCss > div.card > .card-img {
+  width: 10rem;
+  clip-path: circle(64.7% at 34% 35%);
+  height: 100%;
+  margin-left: -1rem;
+}
+.myCard:hover
+{
+  box-shadow: 0.5px 0.5px 20px grey;
+  cursor: pointer;
+}
+
+div.cardsCss > .card-body {
+  width: 50%;
+}
+
+div.flexChild1 > datalist {
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  font-family: sans-serif;
+  width: 350px;
+  padding: 5px;
+}
+
+option {
+  background-color: white !important;
+  padding: 4px !important;
+  color: blue !important;
+  margin-bottom: 1px !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+}
+
+.addbuttonClass
+{
+  /* position: relative; */
+ width:0;
+}
+
+div.addbuttonClass>button
+{
+  position: absolute;
+  width: 2.2em;
+  height: 2.2em;
+  right: 118px;
+  top: 4.5em;
+  border-radius: 50px;
+  background-color: #C6001C;
+  color: white;
+}
+
+div.addbuttonClass>button:nth-child(2)
+{
+  position: absolute;
+  width: 2.2em;
+  height: 2.2em;
+  right: 10em;
+  top: 4.5em;
+  border-radius: 50px;
+  background-color: #C6001C;
+  color: white;
+}
+
+div.addbuttonClass>button:nth-child(3)
+{
+  position: absolute;
+  width: 2.2em;
+  height: 2.2em;
+  right: 12.6em;
+  top: 4.5em;
+  border-radius: 50px;
+  background-color: #C6001C;
+  color: white;
+}
+div.addbuttonClass>button:hover
+{
+  background-color: white;
+  border:1px solid #C6001C;
+  color: #C6001C;
+}
+.addbuttonClass>button>img
+{
+  width:1em;
+  height:1em;
+  margin-top:-1.5px;
+  margin-left:-2px;
+}
+div.addbuttonClass>button>.img-top{
+  display: none;
+  width:1em;
+  height:1em;
+  margin-top:-24px;
+  margin-left:-2px;
+  z-index: 99;
+}
+
+div.addbuttonClass>button:hover img.img-top{
+  display: block;
+}
